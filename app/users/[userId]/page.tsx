@@ -3,9 +3,7 @@ import getUserPosts from "@/lib/getUserPosts";
 import React from "react";
 import { Suspense } from "react";
 import UserPosts from "./components/UserPosts";
-
 import { Metadata } from "next";
-import { useRouter } from "next/router";
 
 interface Params {
   params: {
