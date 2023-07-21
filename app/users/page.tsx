@@ -11,6 +11,9 @@ export default async function page() {
   const usersData: Promise<User[]> = getAllUser();
   
   const users = await usersData ;
+
+  console.log('inside user page') // that is invisible in console, because it is a server component
+
   const content = (
     <section>
       <h2>
